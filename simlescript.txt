@@ -1,0 +1,28 @@
+#!/bin/bash
+
+echo "On the road to the riches, on the road to the riches, on the road the riches..."
+
+#Creates odb directory
+mkdir -p odb
+
+#Creates roads to the riches.txt file and adds lyrics to it
+touch odb/road to the riches.txt
+echo "When I was five years old I realized there was a road" >> koolgrap/roadstoriches.txt
+echo "At the end I will win lots of pots of gold" >> koolgrap/roadstoriches.txt
+echo "Never took a break, never made a mistake" >> koolgrap/roadstoriches.txt
+echo "Took time to create cause there's money to make" >> koolgrap/roadstoriches.txt
+
+echo "" >> koolgrap/roadstorichess.txt
+
+#Displays the contents of roadstoriches.txt
+cat koolgrap/roadstoriches.txt
+
+ls -l koolgrap
+
+#Displays the current working directory
+pwd
+
+#Displays the current date and time when the script is run
+date
+
+echo "Some nights I shed a tear while I said a prayer!"
